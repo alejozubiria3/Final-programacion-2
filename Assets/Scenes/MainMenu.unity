@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 153575227}
   m_Layer: 0
-  m_Name: Maia
+  m_Name: Dante
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,7 +429,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Maia A. Granado
+  m_Text: Dante A. Granado
 --- !u!222 &184304308
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1927,7 +1927,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Maia A. Granado
+  m_Text: Dante A. Granado
 --- !u!222 &1395017903
 CanvasRenderer:
   m_ObjectHideFlags: 0
