@@ -2287,7 +2287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigo: {fileID: 8093944179875681131}
-  player: {fileID: 0}
+  player: {fileID: 1606917336169712447, guid: 1cf5f55d9b4263f4db06a6e632e9286c, type: 3}
   Velocidad: 1.5
   attackDistance: 0
   animator: {fileID: 2788673258040936721}
@@ -2485,9 +2485,9 @@ MonoBehaviour:
   agent: {fileID: 8636160416217166982}
   _attackCooldown: 2
   zombieAnimator: {fileID: 2788673258040936721}
-  player: {fileID: 0}
-  jugador: {fileID: 0}
-  myPlayer: {fileID: 0}
+  player: {fileID: 2091704741152182661, guid: 1cf5f55d9b4263f4db06a6e632e9286c, type: 3}
+  jugador: {fileID: 1606917336169712447, guid: 1cf5f55d9b4263f4db06a6e632e9286c, type: 3}
+  myPlayer: {fileID: 1280803161714972595, guid: 1cf5f55d9b4263f4db06a6e632e9286c, type: 3}
   damage: 20
   attackDistance: 3
   rotationSpeed: 0.7

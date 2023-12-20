@@ -398,7 +398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigo: {fileID: 982980440624956660}
-  player: {fileID: 0}
+  player: {fileID: 1606917336169712447, guid: 1cf5f55d9b4263f4db06a6e632e9286c, type: 3}
   Velocidad: 6
   attackDistance: 0
   animator: {fileID: 6576402608270237326}
