@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.22017, y: 39.51162}
+  m_AnchoredPosition: {x: 32.22017, y: -3}
   m_SizeDelta: {x: 1171.1316, y: 246.5755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7235690853126293147
@@ -1466,7 +1466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.22017, y: 39.51162}
+  m_AnchoredPosition: {x: 32.22017, y: -3}
   m_SizeDelta: {x: 1171.1316, y: 246.5755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7593085650336940912
@@ -1582,7 +1582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.22017, y: 39.51162}
+  m_AnchoredPosition: {x: 32.22017, y: 3}
   m_SizeDelta: {x: 1171.1316, y: 246.5755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7593085650491916397
@@ -2030,6 +2030,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Main Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
       value: Main Menu
@@ -2148,6 +2152,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Main Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
       value: Main Menu
@@ -2265,6 +2273,10 @@ PrefabInstance:
     - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Text
       value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
@@ -2388,6 +2400,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Exit Game
       objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
       value: Exit Game
@@ -2505,6 +2521,10 @@ PrefabInstance:
     - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Text
       value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
@@ -2628,6 +2648,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Restart
       objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
       value: Restart
@@ -2750,6 +2774,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Replay
       objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
       value: Replay
@@ -2871,6 +2899,10 @@ PrefabInstance:
     - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Text
       value: Continue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899129994389877780, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8993289816840411609, guid: 99923e789084b8e419acaf1b7cc48118, type: 3}
       propertyPath: m_Name
