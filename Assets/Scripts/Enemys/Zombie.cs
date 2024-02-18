@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+public enum ZombieType
+{
+    Normal,
+    Fast,
+    Tank
+}
 public abstract  class Zombie: MonoBehaviour,IDamagable
     
 
@@ -13,6 +19,7 @@ public abstract  class Zombie: MonoBehaviour,IDamagable
     protected bool _isAttacking;
     [SerializeField] protected float _attackCooldown;
     [SerializeField] protected  Animator zombieAnimator;
+     public ZombieType zombieType;
     
     
     

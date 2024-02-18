@@ -7,8 +7,23 @@ public class PowerUp: MonoBehaviour
 
     [SerializeField]
     private float powerupCd;
+
+      public float PowerupCd
+    {
+        get { return powerupCd; }
+        set { powerupCd = value; }
+    }
+
+
     [SerializeField]
     private poweruptype powerUpType;
+     
+    public poweruptype PowerUpType
+    {
+        get { return powerUpType; }
+        set { powerUpType = value; }
+    }
+
 
     private void Loot(PlayerManager playerManager)
     {

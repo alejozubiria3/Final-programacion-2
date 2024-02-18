@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class PlayerManager : MonoBehaviour, IDamagable
 {
-
+    public delegate void ShootingEventHandler();
+    public event ShootingEventHandler OnShoot;
     public int objectives = 0;
     public float maxHealth = 10;
     public float health = 10;
@@ -63,8 +65,8 @@ public class PlayerManager : MonoBehaviour, IDamagable
                 StartCoroutine("Shooting");
                 _canAttack = false;
                
-                
-
+                 Debug.Log("El personaje esta disparando");
+                 OnShoot?.Invoke();
             }
 
         }
