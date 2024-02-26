@@ -10,6 +10,8 @@ public class Bandages : Interactable
         {
             Debug.Log("Picked up Bandage");
 
+            myPlayer.inventory["Bandages"]++;
+
             AudioSource.PlayClipAtPoint(keysound, gameObject.transform.position);
             myPlayer.health = myPlayer.maxHealth;
             Destroy(gameObject);

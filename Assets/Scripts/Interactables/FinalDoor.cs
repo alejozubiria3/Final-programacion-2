@@ -9,7 +9,7 @@ public class FinalDoor : Interactable
 
     protected override void Interaction()
     {
-        if (myPlayer.objectives >= 10) 
+        if (myPlayer.inventory["Objectives"] >= 10) 
         {
             winMenu.SetActive(true);
             Time.timeScale = 0f;

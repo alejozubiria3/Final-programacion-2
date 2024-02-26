@@ -28,6 +28,7 @@ public class PowerUp: MonoBehaviour
     private void Loot(PlayerManager playerManager)
     {
         playerManager.activarBufo(powerUpType, powerupCd);
+        playerManager.inventory["PowerUps"]++;
         Destroy(gameObject);
     }
     private void OnTriggerEnter(Collider other)

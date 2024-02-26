@@ -11,8 +11,9 @@ public class Objective : Interactable
     {
         Debug.Log("Picked up Objective");
 
+        myPlayer.inventory["Objectives"]++;
+
         AudioSource.PlayClipAtPoint(keysound, gameObject.transform.position);
-        myPlayer.objectives++;
         Destroy(gameObject);
         Destroy(transform.parent.gameObject);
         ObjetiveCounter objetiveTracker = myPlayer.GetComponent<ObjetiveCounter>();

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,9 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour, IDamagable
 {
+    public Dictionary<string, int> inventory = new Dictionary<string, int>();
+
     public delegate void ShootingEventHandler();
     public event ShootingEventHandler OnShoot;
-    public int objectives = 0;
     public float maxHealth = 10;
     public float health = 10;
 
@@ -48,6 +50,10 @@ public class PlayerManager : MonoBehaviour, IDamagable
 
     void Start ()
     {
+        inventory["Objectives"] = 0;
+        inventory["PowerUps"] = 0;
+        inventory["Bandages"] = 0;
+
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         _canAttack = true;
@@ -72,6 +78,18 @@ public class PlayerManager : MonoBehaviour, IDamagable
         }
     }
 
+    void OpenInventory()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Debug.Log(inventory["Bandages"] + " Bandages");
+            Debug.Log(inventory["PowerUps"] + " PowerUps");
+            Debug.Log(inventory["Objectives"] + " Objectives");
+        }
+
+
+    }
+
     public void Die() 
     {
         Time.timeScale = 0f;
@@ -88,6 +106,7 @@ public class PlayerManager : MonoBehaviour, IDamagable
         healthBar.SetHealth(health);
 
         Attack();
+        OpenInventory();
     }
 
 
