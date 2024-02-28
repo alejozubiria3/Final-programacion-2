@@ -9,6 +9,8 @@ public class PlayerManager : MonoBehaviour, IDamagable
 {
     public Dictionary<string, int> inventory = new Dictionary<string, int>();
 
+    public static event Action OnPlayerDeath;
+
     public delegate void ShootingEventHandler();
     public event ShootingEventHandler OnShoot;
     public float maxHealth = 10;
@@ -92,7 +94,7 @@ public class PlayerManager : MonoBehaviour, IDamagable
 
     public void Die() 
     {
-        Time.timeScale = 0f;
+        OnPlayerDeath?.Invoke();
         gameOverScreen.SetActive(true);
     }
 

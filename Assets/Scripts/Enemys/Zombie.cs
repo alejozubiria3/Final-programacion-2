@@ -33,16 +33,10 @@ public abstract  class Zombie: MonoBehaviour,IDamagable
 
 
     {
-
-
+        PlayerManager.OnPlayerDeath += StopEnemyTime;
         hp = hpMax;
 
-
     }
-
-
-
-
 
 
     public void TakeDamage(float damage)
@@ -64,5 +58,10 @@ public abstract  class Zombie: MonoBehaviour,IDamagable
 
 
 
+    }
+
+    void StopEnemyTime() 
+    {
+        Time.timeScale = 0f;
     }
 }
