@@ -109,6 +109,7 @@ public class PlayerManager : MonoBehaviour, IDamagable
 
         Attack();
         OpenInventory();
+
     }
 
 
@@ -171,5 +172,4 @@ public class PlayerManager : MonoBehaviour, IDamagable
         
     }
 
-   
 }
